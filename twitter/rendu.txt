@@ -1,0 +1,8 @@
+j'ai modifié le code pour que l'on ne puisse que supprimer son compte et donc pas celui des autres, pareil pour les tweets
+donc pour supprimer ceux des autres il faut se log à leur comptes
+je n'ai pas hashé les mots de passe par peur de bloquer les premiers comptes créés vu qu'ils ne l'ont pas été, mais j'ai bien compris l'utilisation
+de crypt() et password_verify(), le fait de ne pas hashé permet aussi d'avoir accès à tous les comptes créés dans le cadre de l'exercice pour les
+supprimer par exemple sans avoir à demander les logs
+j'ai essayé d'implémenter la modification de tweet mais le code update tweet set contenu = :contenu where id = :id ne marche pas même quand j'utilise
+le code donné par sql et que je modifie manuellement sans variable, donc je suis un peu dégouté parce que j'y ai passé du temps mais tant pis
+Bonne correction et merci pour le cours notamment la partie mysql qui m'a bien aidé :)
